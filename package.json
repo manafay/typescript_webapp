@@ -30,7 +30,11 @@
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",
     "testRegex": "(src/.*\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": ["ts", "tsx", "js"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   },
   "dependencies": {
     "immutable": "^4.0.0-rc.2"
