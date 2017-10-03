@@ -21,8 +21,8 @@ You could also install and configure Emacs, Atom or Visual studio code by adding
 
 2. Clone this repository and install npm packages. Make sure you have [git](https://git-scm.com/) installed.
 
-        git clone https://gitlab.com/pervezfunctor/ts-starter.git
-        cd ts-starter
+        git clone https://gitlab.com/pervezfunctor/typescript-starter.git
+        cd typescript-starter
         npm install
 
 3. Start server
