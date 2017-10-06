@@ -5,24 +5,21 @@ module.exports = {
   entry: './src/index.ts',
   devtool: 'sourcemap',
   output: {
-    publicPath: "/build/",
+    publicPath: '/build/',
     path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   module: {
-    rules: [
-      { test: /\.ts$/, loader: 'ts-loader' },
-      { test: /\.ts$/, loader: "tslint-loader" },
-    ],
+    rules: [{ test: /\.ts$/, loader: 'ts-loader' }]
   },
   resolve: {
-    extensions: ['.ts', '.js'],
+    extensions: ['.ts', '.js']
   },
   devServer: {
     open: true,
-    openPage: "index.html",
+    openPage: 'index.html',
     inline: true,
     noInfo: true,
-    port: 3000,
-  },
+    port: 3000
+  }
 };
