@@ -12,6 +12,8 @@
     "pretty": true,
     "allowJs": true,
     "checkJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "lib": [
       "dom",
       "dom.iterable",
